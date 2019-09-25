@@ -7,3 +7,14 @@ Steps for the implementation are below:
  - Input size: is the size of feature vector which will be feed as input in our NN. In our case it is 2, pass it as a parameter
  - Output size: is the size of output layer, number of neurons that will be in output layer
  - Randomly initialize W i.e. random weight matrix
+- Below is the list of functions which we needed to implement within the class Neural_Network.
+  - Feedforward (self, X)
+    - X is input feature(s)
+    - Return predicted vector(s)
+  - Backpropogation (self,X, Y, y_pred, lr):
+      - X is input feature(s)
+      - Y is actual label(s)
+      - Y_pred is predicted value(s)
+      - Lr is learning rate
+  - Sigmoid(self, s)
+      - Return sigmoid applied on s value(s)
