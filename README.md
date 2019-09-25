@@ -1,7 +1,6 @@
 # Single Neuron Neural-Network-Implementation-from-Scratch-in-Python-
 It is a single neuron neural network implementation from scratch in Python It is using sample data of 2 dimensions to train and test It is just for understanding purpose
-![](Images/SingleNeuronpng)
-<h2>Implementation of Neural Network with Sigmoid and cross entropy loss function </h2>
+## Implementation of Neural Network with Sigmoid and cross entropy loss function 
 Steps for the implementation are below:
 - Created a class named as Neural_Network which will take input and output size as a parameter
   -  a Input size: is the size of feature vector which will be feed as input in our NN In our case
