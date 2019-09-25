@@ -47,10 +47,10 @@ Steps for the implementation are below:
       - return predicted value on testX
     
 <h3> Approach: </h3>
--Split Data into 70:30 ratio
--Data dimension is like (2 columns ,4000 rows) 2000 for class 1 and 2000 for class 0
--And then added an additional row of 1’s for bias And its dimensions become (3 columns ,4000 rows) 1st columns in now always will be 1 to tackle bias
--Randomly initialize the weight vector with dimension (1 * 2+1)
--Bias is added to column It is a row vector
--In feedword Calculated the dZ & dA
--And then update the W in backpropogate
+-Split Data into 70:30 ratio <br />
+-Data dimension is like (2 columns ,4000 rows) 2000 for class 1 and 2000 for class 0 <br />
+-And then added an additional row of 1’s for bias And its dimensions become (3 columns ,4000 rows) 1st columns in now always will be 1 to tackle bias <br />
+-Randomly initialize the weight vector with dimension (1 * 2+1) <br />
+-Bias is added to column It is a row vector <br />
+-In feedword Calculated the dZ & dA <br />
+-And then update the W in backpropogate <br />
